@@ -1,0 +1,54 @@
+.toolbar {
+	background: black;
+	color: white;
+	height: 6%;
+	display: flex;
+	justify-content: space-between;
+}
+::ng-deep .navigationMenu {
+	background: black;
+	color: white;
+	height: wrap;
+	width: wrap;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+body {
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column wrap;
+}
+.list {
+	list-style-type: none;
+	background: grey;
+	color: white;
+	height: wrap;
+}
+.tabLabel {
+	color: white;
+	margin: auto;
+	vertical-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: auto;
+	font-size: 200%;
+	display: block;
+}
+.buttons {
+	margin-left: 5px;
+	color: white;
+	background: grey;
+}
+.icon {
+	width: 50px;
+	height: auto;
+	margin-top: 5px;
+}
+#menuButton {
+	background: black;
+	margin-bottom: 5px;
+}
