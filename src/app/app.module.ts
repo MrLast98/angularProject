@@ -37,10 +37,13 @@ const routes: Routes = [
 	MatIconModule,
 	MatMenuModule,
 	RouterModule.forRoot(routes),
-	SlideshowModule
+	MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [RouterModule],
+  exports: [
+	  RouterModule,
+  	  MatCardModule
+  ],
 })
 export class AppModule { }

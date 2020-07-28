@@ -4,12 +4,21 @@ p {
 .cards {
 	background: grey;
 	color: white;
-	width: 600px;
-	height: 400px;
-	margin: 0px;
-	padding: 15px;
+	width: 30%;
+	height: wrap;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .text {
 	background: grey;
 	color: white;
+}
+body {
+	justify-content: space-between;	
+	display: flex;
 }
